@@ -1,0 +1,156 @@
+header {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  text-decoration: none;
+}
+
+body {
+  display: block;
+   margin: 8px;
+}
+
+#main {
+  width: 1125px;
+  margin: auto;
+}
+
+.boutons-1 {
+  margin: 40px;
+}
+
+.boutons-1 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+}
+
+.logo {
+  margin-top: 5px;
+}
+
+.boutons-2 {
+  display: flex;
+}
+
+.boutonb button {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  text-align: center;
+  line-height: 2.5;
+}
+
+.boutonb button {
+  width: 96px;
+  height: 30px;
+  margin: 7px;
+  background: #6288A5;
+  border-radius: 8px;
+  text-align: center;
+   border-color: #4d7b9f;
+   color: #ffffff;
+   font-weight: 700;
+}
+
+.sharebuttons {
+  display: flex;
+  list-style: none;
+  float:right;
+}
+
+.sharebuttons li {
+  margin-right: 15px;
+}
+
+.articles_container {
+  display: flex;
+  border: 1px solid;
+height: 75px;
+}
+
+#avion {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex:1;
+}
+
+#lune {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex:1;
+}
+
+#meteorite {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  display: flex;
+  flex:1;
+}
+
+#vieux {
+  width: 1125px;
+  margin: auto;
+}
+
+.article_1 {
+  width: 705px;
+}
+
+.article_1 p {
+  font-size: 17px;
+font-size: 1.0625rem;
+line-height: 26px;
+line-height: 1.625rem;
+font-weight: 400;
+font-style: normal;
+font-family: georgia,"times new roman",times,serif;
+
+}
+
+.schema {
+position: relative;
+overflow: hidden;
+width: 945px;
+}
+
+#theorie {
+  height: auto;
+max-width: 100%;
+}
+
+.text1 {
+  top: 24.8264%;
+left: 0.0436%;
+width: 228px;
+position: absolute;
+}
+
+.text1 p {
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+font-size: 14px;
+line-height: 17px;
+font-weight: 300;
+color: #000000;
+}
+.miniatures {
+  flex: 1;
+  justify-content: center;
+}
+
+.titres {
+  flex: 2,5;
+  justify-content: center;
+}
+
+
+
+.titres a{
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
